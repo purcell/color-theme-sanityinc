@@ -131,6 +131,7 @@
        (org-warning ((t (:bold t :foreground ,red))))
        (org-scheduled-previously ((t (:foreground ,orange))))
 
+       (hl-sexp-face ((t (:background "AntiqueWhite2"))))
        (highlight-80+ ((t (:background "palegoldenrod"))))
        ))))
 
@@ -213,6 +214,8 @@
        (minibuffer-prompt ((t (:foreground ,light-sky-blue))))
        (region ((t (:background ,light-grey))))
        (secondary-selection ((t (:background ,aluminium :foreground ,dark-grey))))
+
+       (hl-sexp-face ((t (:background "gray10"))))
 
        ;; Parenthesis matching
        (show-paren-match-face ((t (:foreground ,light-grey :background ,medium-chameleon))))
