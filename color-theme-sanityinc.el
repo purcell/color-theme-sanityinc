@@ -1,3 +1,43 @@
+;;; color-theme-sanityinc --- Two pleasant color themes
+
+;; Copyright (C) 2009,2010 Steve Purcell
+
+;; Author: Steve Purcell <steve [at] sanityinc.com>
+;; Keywords: themes
+;; X-URL: http://github.com/purcell/color-theme-sanityinc
+;; URL: http://github.com/purcell/color-theme-sanityinc
+
+;; This program is free software; you can redistribute it and/or modify
+;; it under the terms of the GNU General Public License as published by
+;; the Free Software Foundation, either version 3 of the License, or
+;; (at your option) any later version.
+
+;; This program is distributed in the hope that it will be useful,
+;; but WITHOUT ANY WARRANTY; without even the implied warranty of
+;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+;; GNU General Public License for more details.
+
+;; You should have received a copy of the GNU General Public License
+;; along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+;;; Commentary:
+;;
+;; Here are two slightly subdued color themes that are easy on the eyes
+;; and cover a reasonably complete set of faces.
+;;
+;;; Use:
+;;
+;; M-x color-theme-sanityinc-light
+;; M-x color-theme-sanityinc-dark
+;;
+;;; Credit:
+;;
+;; Thanks to the authors of color-theme-pierson and
+;; color-theme-subdued (which, in turn, is based on color-theme-tango).
+;;
+;;; Code:
+
+;; requires
 (require 'color-theme)
 
 

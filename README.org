@@ -1,0 +1,7 @@
+* color-theme-sanityinc.el
+
+This package provides two Emacs color themes unimaginatively named
+color-theme-sanityinc-light and color-theme-sanityinc-dark according
+to the background color.
+
+Each has a reasonably complete set of faces, and is medium-contrast.
