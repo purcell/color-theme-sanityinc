@@ -119,6 +119,7 @@
        (slime-highlight-edits-face ((t (:background ,light-rose))))
 
        (link ((t (:foreground ,blue :underline t))))
+       (widget-button ((t (:underline t))))
        (org-link ((t (:foreground ,blue :underline t))))
        (org-date ((t (:foreground ,blue :underline t))))
        (org-done ((t (:foreground ,green))))
@@ -223,6 +224,7 @@
 
        (highlight-80+ ((t (:background ,slate-blue))))
        (link ((t (:foreground ,light-sky-blue :underline t))))
+       (widget-button ((t (:underline t))))
        (org-link ((t (:foreground ,light-sky-blue :underline t))))
        (org-date ((t (:foreground ,light-sky-blue :underline t))))
        (org-done ((t (:foreground "PaleGreen3"))))
