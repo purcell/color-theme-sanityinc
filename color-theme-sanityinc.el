@@ -90,6 +90,15 @@
        (font-lock-variable-name-face ((t (:foreground ,green))))
        (font-lock-warning-face ((t (:bold t :foreground ,red))))
 
+       ;; Flymake
+       (flymake-warnline ((t (:underline "orange" :background ,background-white))))
+       (flymake-errline ((t (:underline "red" :background ,background-white))))
+
+       ;; MMM-mode
+       (mmm-code-submode-face ((t (:background "Thistle2"))))
+       (mmm-comment-submode-face ((t (:background "khaki3"))))
+       (mmm-output-submode-face ((t (:background "Thistle3"))))
+
        ;; Search
        (isearch ((t (:foreground ,background-white :background ,green))))
        (isearch-lazy-highlight-face ((t (:foreground ,foreground-black :background ,yellow))))
@@ -117,6 +126,7 @@
        (show-paren-mismatch-face ((t (:background ,purple :foreground ,background-white))))
 
        (slime-highlight-edits-face ((t (:background ,light-rose))))
+       (magit-item-highlight ((t (:background ,light-rose))))
 
        (link ((t (:foreground ,blue :underline t))))
        (widget-button ((t (:underline t))))
@@ -182,6 +192,15 @@
        (font-lock-variable-name-face ((t (:foreground ,med-dark-choc))))
        (font-lock-warning-face ((t (:bold t :foreground ,scarlet))))
 
+       ;; Flymake
+       (flymake-warnline ((t (:underline "orange" :background ,background-black))))
+       (flymake-errline ((t (:underline "red" :background ,background-black))))
+
+       ;; MMM-mode
+       (mmm-code-submode-face ((t (:background "DarkSlateGrey"))))
+       (mmm-comment-submode-face ((t (:background "DarkSlateGrey"))))
+       (mmm-output-submode-face ((t (:background "Navy"))))
+
        ;; Search
        (isearch ((t (:foreground ,dark-grey :background ,dark-chameleon))))
        (isearch-lazy-highlight-face ((t (:foreground ,dark-grey :background ,light-sky-blue))))
@@ -234,6 +253,7 @@
        (org-level-2 ((t (:foreground ,foreground-white))))
        (org-level-3 ((t (:foreground ,aluminium))))
        (slime-highlight-edits-face ((t (:background "gray17"))))
+       (magit-item-highlight ((t (:background "gray17"))))
 
        ;; Calendar
        (holiday-face ((t (:foreground ,scarlet))))
