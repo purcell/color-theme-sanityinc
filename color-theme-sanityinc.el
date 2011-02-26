@@ -122,8 +122,8 @@
        (secondary-selection ((t (:background "paleturquoise"))))
 
        ;; Parenthesis matching
-       (show-paren-match-face ((t (:background "turquoise"))))
-       (show-paren-mismatch-face ((t (:background ,purple :foreground ,background-white))))
+       (show-paren-match ((t (:background "turquoise"))))
+       (show-paren-mismatch ((t (:background ,purple :foreground ,background-white))))
 
        (slime-highlight-edits-face ((t (:background ,light-rose))))
        (magit-item-highlight ((t (:background ,light-rose))))
@@ -238,8 +238,8 @@
        (hl-sexp-face ((t (:background "gray10"))))
 
        ;; Parenthesis matching
-       (show-paren-match-face ((t (:foreground ,light-grey :background ,medium-chameleon))))
-       (show-paren-mismatch-face ((t (:foreground ,very-light-grey :background ,scarlet))))
+       (show-paren-match ((t (:foreground ,light-grey :background ,plum))))
+       (show-paren-mismatch ((t (:foreground ,very-light-grey :background ,scarlet))))
 
        (highlight-80+ ((t (:background ,slate-blue))))
        (link ((t (:foreground ,light-sky-blue :underline t))))
